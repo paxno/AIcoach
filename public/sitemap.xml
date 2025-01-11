@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/AIcoach/</loc>
+    <loc>http://localhost:52474/AIcoach/</loc>
   </url><url>
-    <loc>http://localhost:1313/AIcoach/categories/</loc>
+    <loc>http://localhost:52474/AIcoach/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/AIcoach/tags/</loc>
+    <loc>http://localhost:52474/AIcoach/tags/</loc>
   </url>
 </urlset>
