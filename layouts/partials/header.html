@@ -11,40 +11,20 @@
     <title>{{ .Site.Title }}</title>
     <meta name="keywords" content="{{ .Site.Params.keywords }}" />
     <meta name="description" content="{{ .Site.Params.description }}" />
-    <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" />
+    <link rel="shortcut icon" href="{{ absURL $.Site.Params.favicon }}" />
 
     <!-- CSS -->
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/fonts/linecons/css/linecons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/fonts/fontawesome/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/bootstrap.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/xenon-core.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/xenon-components.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/xenon-skins.css"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ .Site.Params.assets_prefix }}/css/nav.css"
-    />
-
+    <link rel="stylesheet" id="block-library-css" href="{{ absURL "assets/css/block-library.min-5.6.2.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="iconfont-css" href="{{ absURL "assets/css/iconfont-3.03029.1.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="bootstrap-css" href="{{ absURL "assets/css/bootstrap.min-4.3.1.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="fancybox-css" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="iowen-css" href="{{ absURL "assets/css/style-3.03029.1.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-css" href="{{ absURL "assets/css/custom-style.css" }}" type="text/css" media="all">
+    <link rel="stylesheet" id="fortawesome-css" href="{{ absURL "assets/fontawesome-5.15.4/css/all.min.css" }}" type="text/css">
+    
     <!-- Script -->
-    <script src="{{ .Site.Params.assets_prefix }}/js/jquery-1.11.1.min.js"></script>
-    <script src="{{ .Site.Params.assets_prefix }}/js/custom.js"></script>
+    <script type="text/javascript" src="{{ absURL "assets/js/jquery.min-3.2.1.js" }}" id="jquery-js"></script>
+    <script type="text/javascript" src="{{ absURL "assets/js/content-search.js" }}" id="content-search-js"></script>
+    <script type="text/javascript" src="{{ absURL "assets/js/custom.js" }}"></script>
   </head>
 </html>
