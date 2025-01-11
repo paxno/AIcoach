@@ -1,0 +1,65 @@
+- taxonomy: AI 大模型
+  icon: fas fa-robot
+  list:
+    - term: ChatGPT
+      links:
+        - title: ChatGPT
+          logo: https://chat.openai.com/favicon.ico
+          url: https://chat.openai.com/
+          description: OpenAI开发的AI对话模型
+        - title: Claude
+          logo: https://claude.ai/favicon.ico
+          url: https://claude.ai/
+          description: Anthropic开发的AI助手
+        - title: Gemini
+          logo: https://gemini.google.com/favicon.ico
+          url: https://gemini.google.com/
+          description: Google的AI模型
+
+- taxonomy: AI 工具
+  icon: fas fa-tools
+  list:
+    - term: AI 绘画
+      links:
+        - title: Midjourney
+          logo: https://www.midjourney.com/favicon.ico
+          url: https://www.midjourney.com/
+          description: AI图像生成工具
+        - title: Stable Diffusion
+          logo: https://stability.ai/favicon.ico
+          url: https://stability.ai/
+          description: 开源AI图像生成模型
+    - term: AI 编程
+      links:
+        - title: GitHub Copilot
+          logo: https://github.com/favicon.ico
+          url: https://github.com/features/copilot
+          description: AI编程助手
+        - title: Cursor
+          logo: https://cursor.sh/favicon.ico
+          url: https://cursor.sh/
+          description: AI驱动的代码编辑器
+
+- taxonomy: AI 学习资源
+  icon: fas fa-graduation-cap
+  list:
+    - term: 课程平台
+      links:
+        - title: Coursera
+          logo: https://www.coursera.org/favicon.ico
+          url: https://www.coursera.org/
+          description: 在线学习平台
+        - title: Fast.ai
+          logo: https://www.fast.ai/favicon.ico
+          url: https://www.fast.ai/
+          description: 深度学习课程
+    - term: AI社区
+      links:
+        - title: Hugging Face
+          logo: https://huggingface.co/favicon.ico
+          url: https://huggingface.co/
+          description: AI模型和数据集社区
+        - title: Papers with Code
+          logo: https://paperswithcode.com/favicon.ico
+          url: https://paperswithcode.com/
+          description: AI论文和代码实现

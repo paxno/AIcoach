@@ -1,0 +1,35 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-CN"
+title = "AIcoach 导航"
+theme = "WebStack-Hugo"
+preserveTaxonomyNames = true
+disablePathToLower = true
+hasCJKLanguage = true
+
+[params]
+    author = "AIcoach"
+    description = "AIcoach 网址导航 | 收集AI相关的优质网站"
+    siteurl = "http://localhost:1313/"
+    repository = "https://github.com/shenweiyan/WebStack-Hugo"
+    keywords = "AIcoach,网址导航,AI导航,人工智能"
+    
+    # Logo 设置
+    logo = "/assets/images/logo@2x.png"           # 浅色主题 Logo
+    logo_dark = "/assets/images/logo_dark@2x.png" # 暗色主题 Logo
+    favicon = "/assets/images/favicon.png"         # 网站图标
+    
+    # 静态资源路径
+    assets_prefix = "/assets"
+    images_prefix = "/assets/images"
+    css_prefix = "/assets/css"
+    js_prefix = "/assets/js"
+    
+[params.search]
+    enable = true
+    
+[params.darkmode]
+    enable = true
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
