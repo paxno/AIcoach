@@ -14,11 +14,9 @@ hasCJKLanguage = true
     keywords = "AIcoach,网址导航,AI导航,人工智能"
     
     # Logo 设置
-    favicon = "/favicon.png"         # 网站图标
-    images = 
-        favicon = "assets/images/favicon.png"
-        logo = "assets/images/logo@2x.png"
-        logo_dark = "assets/images/logo_dark@2x.png"
+    logo = "/assets/images/logo@2x.png"           # 浅色主题 Logo
+    logo_dark = "/assets/images/logo_dark@2x.png" # 暗色主题 Logo
+    favicon = "/assets/images/favicon.png"         # 网站图标
     
 [params.search]
     enable = true
