@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://paxno.github.io/AIcoach/"
 languageCode = "zh-CN"
 title = "AIcoach 导航"
 theme = "WebStack-Hugo"
@@ -9,8 +9,8 @@ hasCJKLanguage = true
 [params]
     author = "AIcoach"
     description = "AIcoach 网址导航 | 收集AI相关的优质网站"
-    siteurl = "http://localhost:1313/"
-    repository = "https://github.com/shenweiyan/WebStack-Hugo"
+    siteurl = "https://paxno.github.io/AIcoach/"
+    repository = "https://github.com/paxno/AIcoach"
     keywords = "AIcoach,网址导航,AI导航,人工智能"
     
     # Logo 设置
