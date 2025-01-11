@@ -22,7 +22,7 @@ hasCJKLanguage = true
     enable = true
     
 [params.darkmode]
-    enable = true
+    enable = true    # 启用深色模式切换功能
 
 [taxonomies]
     category = "categories"
